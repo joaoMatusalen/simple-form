@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>Pesquisa Geek</h1>
+    <form id="form">
+        <div id="fullname">
+            <label for="fullname">Nome</label>
+            <input type="text" class="input-block" id="fullnameInput" name="fullname">
+        </div>
+        <div id="email">
+            <label for="email">Email</label>
+            <input type="email" class="input-block" id="emailInput" name="name">
+        </div>
+        <div id="age">
+            <label for="age">Idade</label>
+            <input type="number" class="input-block" id="ageInput" name="age">
+        </div>
+        <div id="describes-you">
+            <label for="select">Qual opção te descreve melhor?</label>
+            <select name="select" class="input-block"  id="select">
+                <option value="Estudante">Estudante</option>
+                <option value="Freelancer">Freelancer</option>
+                <option value="Profissional">Profissional</option>
+            </select>
+        </div>
+        <div id="recommend">
+            <label>Você recomenda a Geek para seus amigos?</label>
+            <label for="radio"><input type="radio" name="radio" class="radio" value="Sim">Sim</label>
+            <label for="radio"><input type="radio" name="radio" class="radio" value="Não">Não</label>
+            <label for="radio"><input type="radio" name="radio" class="radio" value="Sim">Talvez</label>
+        </div>
+        <div id="techs">
+            <label>Quais dessas linguagens você conhece?</label>
+            <label><input type="checkbox" name="checkbox" class="checkbox" value="C">C</label>
+            <label><input type="checkbox" name="checkbox" class="checkbox" value="C#">C#</label>
+            <label><input type="checkbox" name="checkbox" class="checkbox" value="C++">C++</label>
+            <label><input type="checkbox" name="checkbox" class="checkbox" value="JavaScript">JavaScript</label>
+            <label><input type="checkbox" name="checkbox" class="checkbox" value="Python">Python</label>
+            <label><input type="checkbox" name="checkbox" class="checkbox" value="Ruby">Ruby</label>
+            <label><input type="checkbox" name="checkbox" class="checkbox" value="Node.js">Node.js</label>
+            <label><input type="checkbox" name="checkbox" class="checkbox" value="Angular">Angular</label>
+            <label><input type="checkbox" name="checkbox" class="checkbox" value="TypeScript">TypeScript</label>
+            <label><input type="checkbox" name="checkbox" class="checkbox" value="Vue.js">Vue.js</label>
+        </div>
+        <div id="comment">
+            <label for="">Comentarios e sugestões</label>
+            <textarea name="textarea" class="input-block" id="textarea" cols="30" rows="10"></textarea>
+        </div>
+        <div id="button">
+            <button id="submitBtn">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
